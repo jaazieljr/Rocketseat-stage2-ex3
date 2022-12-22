@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap');
+body{
+  font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  background-color: #2C2B3D;
+  color:#fff;
+  min-height: 100vh;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 71px 100px ;
+}
+header ul {
+list-style: none;
+display: flex;
+gap:64px;
+
+}
+header ul li{
+cursor: pointer;
+transition: .3s;
+}
+header ul li:hover{
+  transform: scale(1.1);
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 150px 100px ;
+}
+
+
+main img{
+  transition: .3s;
+}
+
+main img:hover{
+  transform:scale(1.1);
+}
+
+main div{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+main div p{
+  font-family: 'Open Sans', sans-serif;
+  color:#C2C2C2;
+}
+main div h1{
+  font-weight: bold;
+}
+footer {
+  margin:200px auto;
+  margin-bottom: 0;
+  border-top: 1px solid #00BFA6;
+  width: fit-content;
+  padding: 27px;
+}
+
+#marca{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+}
+span{
+  color:#00BFA6;
+}
+
+b{
+  color:#fff;
+}
+footer a {
+  cursor: pointer;
+  transition: .3s;
+  text-decoration:none;
+  color:#fff;
+}
+footer a:hover{
+  color:#C2C2C2;
+}
